@@ -1,3 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,300&family=Poppins:wght@100;200;300;400;500;600;700&family=Urbanist:wght@300;400;500;600;800&display=swap");
+
+/* reset code  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Urbanist',sans-serif;
+}
+/* reset code  */
+
+
+.container{
+    max-width: 1170px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
