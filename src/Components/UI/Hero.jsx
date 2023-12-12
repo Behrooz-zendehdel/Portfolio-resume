@@ -81,7 +81,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#youtube"
+                  href="#whatsup"
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
                   <FaWhatsapp
@@ -93,7 +93,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#youtube"
+                  href="#instagram"
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
                   <FaInstagram
@@ -105,7 +105,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#youtube"
+                  href="#linkdin"
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
                   <CiLinkedin
