@@ -25,7 +25,7 @@ const Hero = () => {
             <h1
               data-aos="fade-left"
               data-aos-duration="1500"
-              className="text-headingColor  font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
+              className=" text-headingColor  font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
             >
               I m Behrooz zendedel <br /> Frontend Developer
             </h1>
@@ -56,7 +56,7 @@ const Hero = () => {
               data-aos="fade-left"
               data-aos-duration="1500"
             >
-              <span className="mt-2">
+              <span className="sm:mt-2 sm:ml-8 mt-2 ml-8">
                 <IoLogoAppleAr />
               </span>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
