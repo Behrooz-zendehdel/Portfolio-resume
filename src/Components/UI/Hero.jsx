@@ -119,6 +119,50 @@ const Hero = () => {
             </div>
           </div>
           {/* =========== hero left end ============== */}
+          {/* =========== hero img ============== */}
+          <div className="basis-1/3 mt-10 sm:mt-0 ">
+            <figure className="flex items-center justify-center">
+              <img src={heroImg} alt="" />
+              {/* change image defualt */}
+            </figure>
+          </div>
+          {/* =========== hero img end ============== */}
+          {/* =========== hero contant right ============== */}
+          <div className="md:basis-1/5 flex justify-between text-center mt-10  flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end">
+            <div className="mb-10">
+              <h2 className="text-headingColor font-[700] text-[32px]">
+                <Countup start={0} end={249} duration={2} suffix="+" />
+              </h2>
+              <h4 className="text-smallTextColor font-[400] text-[32px]">
+                accept student
+              </h4>
+            </div>
+            <div className="mb-10">
+              <h2 className="text-headingColor font-[700] text-[32px]">
+                <Countup start={0} end={100} duration={2} suffix="%" />
+              </h2>
+              <h4 className="text-smallTextColor font-[400] text-[32px]">
+                success rate
+              </h4>
+            </div>
+            <div className="mb-10">
+              <h2 className="text-headingColor font-[700] text-[32px]">
+                <Countup start={0} end={150} duration={2} suffix="+" />
+              </h2>
+              <h4 className="text-smallTextColor font-[400] text-[32px]">
+                Happay Client
+              </h4>
+            </div>
+            <div className="mb-10">
+              <h2 className="text-headingColor font-[700] text-[32px]">
+                <Countup start={0} end={12} duration={2} suffix="+" />
+              </h2>
+              <h4 className="text-smallTextColor font-[400] text-[32px]">
+                Compelete project
+              </h4>
+            </div>
+          </div>
+          {/* =========== hero contant right end ============== */}
         </div>
       </div>
     </section>
