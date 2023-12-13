@@ -70,7 +70,7 @@ const Hero = () => {
               {/* social media and follow me  */}
               <span>
                 <a
-                  href="#youtube"
+                  href="#deploy" // imported link deploy to see view
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
                   <GrDeploy
@@ -82,7 +82,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#whatsup"
+                  href="#whatsup" // imported link whatsup to chat
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
                   <FaWhatsapp
@@ -94,7 +94,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#FaGithub"
+                  href="#Github"
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
                   <FaGithub
@@ -106,7 +106,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#linkdin"
+                  href="#linkdin" //imported link linkdin
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
                   <CiLinkedin
