@@ -3,8 +3,9 @@ import heroImg from "../../assets/images/hero.svg";
 import Countup from "react-countup";
 import { CiMail } from "react-icons/ci";
 import { IoLogoAppleAr } from "react-icons/io5";
-import { CiYoutube, CiLinkedin } from "react-icons/ci";
-import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+import { FaWhatsapp, FaGithub } from "react-icons/fa";
+import { GrDeploy } from "react-icons/gr";
 
 import "aos/dist/aos.css";
 const Hero = () => {
@@ -45,7 +46,7 @@ const Hero = () => {
               {/* see portfolio and follow me  */}
               <a
                 href="#portfolio"
-                className="text-smallTextColor font-[600] text-[16px border-b border-smallTextColor"
+                className="text-smallTextColor font-[600] text-[16px] border-b border-smallTextColor"
               >
                 see portfolio
               </a>
@@ -72,7 +73,7 @@ const Hero = () => {
                   href="#youtube"
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
-                  <CiYoutube
+                  <GrDeploy
                     size={30}
                     data-aos="fade-up"
                     data-aos-duration="1200"
@@ -93,10 +94,10 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#instagram"
+                  href="#FaGithub"
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
-                  <FaInstagram
+                  <FaGithub
                     size={30}
                     data-aos="fade-up"
                     data-aos-duration="1200"
