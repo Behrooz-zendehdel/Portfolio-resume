@@ -29,12 +29,12 @@ const Portfolio = () => {
               data-aos-delay="50"
               data-aos-duration="1200"
               key={index}
-              className="group max-w-full w-64 h-48 relative z-[1] mt-12"
+              className="group max-w-full w-64 h-38 relative z-[1] mt-12 rounded-[8px]"
             >
               <figure>
                 <img className="rounded-[8px]" src={portfolio.imgUrl} alt="" />
               </figure>
-              <div className="w-full h-full bg-primaryColor bg-opacity-40 absolute mt-4 top-0 left-0 z-[5] hidden group-hover:block ">
+              <div className="w-full h-full bg-primaryColor bg-opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block ">
                 <div className="w-full h-full flex items-center justify-center">
                   <button className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200 ">
                     Comming soong
