@@ -5,7 +5,7 @@ import Aos from "aos";
 import Hero from "./Components/UI/Hero";
 import Services from "./Components/UI/Services";
 import Portfolio from "./Components/UI/Portfolio";
-import Contant from "./Components/UI/Contant";
+import Contant from "./Components/UI/Contact";
 function App() {
   useEffect(() => {
     Aos.init();
