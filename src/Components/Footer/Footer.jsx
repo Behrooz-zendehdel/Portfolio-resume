@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="sm:flex items-center justify-between md:gap-8">
           <div className="w-full sm:w-1/2 ">
-            <h2 className="text-[26px] leading-10 text-white font-[600] mb-5 md:text-[2rem] ">
+            <h2 className="text-[26px] leading-10 text-white font-[600] mb-5 md:text-[2rem] mb-12">
               Do you want to make beautiful products ?
             </h2>
             <a href="#contant">
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <ul className="flex items-center gap-10 mt-10 justify-cente ">
+          <ul className="flex items-center gap-10 mt-10 justify-center">
             <li>
               <a className="text-gray-400 font-[600]" href="#about">
                 About
