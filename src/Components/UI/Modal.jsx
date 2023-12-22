@@ -11,19 +11,19 @@ const Modal = ({ activeId, setShowModal }) => {
           </figure>
         </div>
         <div>
-          <h2 className=" lg:text-2xl lg:font-[700] md:text-xl  md:font-[500]  sm:text-xl sm:font-[400] text-headingColor  my-5 mx-2   ">
+          <h2 className=" lg:text-2xl lg:font-[700] md:text-xl  md:font-[500]  text-right sm:text-xl sm:font-[400] text-headingColor  my-5 mx-5   ">
             {portfolio.title}
-            <p className="text-[15px] leading-7 text-smallTextColor">
+            <p className="text-[15px] leading-7 text-smallTextColor text-right">
               {portfolio.description}
             </p>
-            <div className="mt-5 flex items-center gap-3 flex-wrap">
+            <div className="mt-5 flex flex-row-reverse items-center gap-3 flex-wrap">
               <h4 className="text-headingColor text-[18px] font-[700]">
-                Technologeis :
+                : فناوری ها
               </h4>
               {portfolio.technologies.map((item, index) => (
                 <span
                   key={index}
-                  className="bg-gray-200 py-1 px-2 rounded-[5px] text-[14px] leading-0"
+                  className="bg-gray-200 py-1 px-2 hover:bg-gray-500 hover:text-white rounded-[5px] text-[14px] leading-0"
                 >
                   {item}
                 </span>
@@ -32,7 +32,7 @@ const Modal = ({ activeId, setShowModal }) => {
           </h2>
           <a href={portfolio.siteUrl}>
             <button className="bg-primaryColor text-white py-2 px-2 my-2 mx-2 rounded-[8px] font-[500] hover:bg-headingColor ease-in duration-300">
-              Live Sites
+              مشاهده
             </button>
           </a>
         </div>

@@ -3,8 +3,7 @@ const Contact = () => {
     <section id="contact" className="pb-16">
       <div className="container">
         <h2 className="text-headingColor font-[700] items-center justify-center flex text-[2.5rem] mb-8 mt-12">
-          {" "}
-          Get in touch
+          به راحتی من را پیدا کن
         </h2>
         <div className="md:flex justify-between items-center ">
           <div className="w-full md:w-1/2 h-[300px] sm:h-[450px]">
@@ -21,34 +20,34 @@ const Contact = () => {
               <div className="mb-5">
                 <input
                   type="text"
-                  placeholder="Enter your name"
-                  className="w-full p-3 focus:outline-none rounded-[5px]"
+                  placeholder="نام خود را وارد کنید"
+                  className="w-full p-3 focus:outline-none rounded-[5px] text-right"
                 />
               </div>
               <div className="mb-5">
                 <input
                   type="text"
-                  placeholder="Enter your email"
-                  className="w-full p-3 focus:outline-none rounded-[5px]"
+                  placeholder="ایمیل خود را وارد کنید"
+                  className="w-full p-3 focus:outline-none rounded-[5px] text-right"
                 />
               </div>
               <div className="mb-5">
                 <input
                   type="text"
-                  placeholder="Subject"
-                  className="w-full p-3 focus:outline-none rounded-[5px]"
+                  placeholder="توضیحات"
+                  className="w-full p-3 focus:outline-none rounded-[5px] text-right"
                 />
               </div>
               <div className="mb-5">
                 <textarea
                   type="text"
                   rows={3}
-                  placeholder="Write your message"
-                  className="w-full p-3 focus:outline-none rounded-[5px]"
+                  placeholder="متن خود را بنویسید"
+                  className="w-full p-3 focus:outline-none rounded-[5px] text-right"
                 />
               </div>
               <button className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor text-center ease-linear duration-150">
-                Send Message
+                ارسال پیام
               </button>
             </form>
           </div>

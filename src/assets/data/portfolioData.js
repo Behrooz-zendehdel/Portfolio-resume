@@ -11,10 +11,10 @@ const portfolios = [
     id: "01",
     imgUrl: portfolioImg01,
     category: "Web Design",
-    title: "Finance Technology Website",
+    title: "وب سایت فناوری های مالی",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "ما یک تیم متخصص در حوزه فناوری مالی هستیم که با تمرکز بر روی برنامه‌نویسی  و ایجاد تجربه کاربری بی‌نظیر، به عنوان ارائه‌دهنده خدمات فناوری مالی، به مشتریان خود راهکارهای نوآورانه ارائه می‌دهیم ",
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
   {
@@ -24,7 +24,7 @@ const portfolios = [
     title: "Video Conference Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
   {
@@ -34,7 +34,7 @@ const portfolios = [
     title: "Multimedia Sharing Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
   {
@@ -44,7 +44,7 @@ const portfolios = [
     title: "Landing Page",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
   {
@@ -54,7 +54,7 @@ const portfolios = [
     title: "Landing Page",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
 
@@ -65,7 +65,7 @@ const portfolios = [
     title: "Online Therapy Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
   {
@@ -75,7 +75,7 @@ const portfolios = [
     title: "Appointment Booking Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
   {
@@ -85,7 +85,7 @@ const portfolios = [
     title: "Finance Technology Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
   {
@@ -95,7 +95,7 @@ const portfolios = [
     title: "Video Conference Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
   {
@@ -105,7 +105,7 @@ const portfolios = [
     title: "File Sharing Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
   {
@@ -115,7 +115,7 @@ const portfolios = [
     title: "Landing Page",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
   {
@@ -125,7 +125,7 @@ const portfolios = [
     title: "Landing Page",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
   {
@@ -135,7 +135,7 @@ const portfolios = [
     title: "Online Therapy Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
   {
@@ -145,7 +145,7 @@ const portfolios = [
     title: "Appointment Booking Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["ریکت", "تلویند", "نود جی اس"],
     siteUrl: "#",
   },
 ];

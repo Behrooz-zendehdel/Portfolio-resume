@@ -51,21 +51,21 @@ const Header = () => {
                 Behrooz
               </h2>
               <p className="text-smallTextColor text-[14px] font-[500]">
-                Personal
+                Zendedel
               </p>
             </div>
           </div>
           {/* ===========logo end================ */}
           {/* =============== menu start============ */}
           <div className="menu" ref={menuRef} onClick={toggleMenu}>
-            <ul className="flex items-center gap-10">
+            <ul className="flex items-center gap-10 flex-row-reverse">
               <li>
                 <a
                   onClick={handleClick}
                   className="text-smallTextColor font-[600]"
                   href="#about"
                 >
-                  About
+                 درباره من
                 </a>
               </li>
               <li>
@@ -74,7 +74,7 @@ const Header = () => {
                   className="text-smallTextColor font-[600]"
                   href="#services"
                 >
-                  Services
+                    خدمات
                 </a>
               </li>
               <li>
@@ -83,7 +83,7 @@ const Header = () => {
                   className="text-smallTextColor font-[600]"
                   href="#portfolio"
                 >
-                  Portfolio
+                  نمونه کار
                 </a>
               </li>
               <li>
@@ -92,7 +92,7 @@ const Header = () => {
                   className="text-smallTextColor font-[600]"
                   href="#contact"
                 >
-                  Contact
+                  ارتباط با من
                 </a>
               </li>
             </ul>
@@ -103,7 +103,7 @@ const Header = () => {
             <button className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-out duration-700">
               {/* add react-icon to be for change remixicon */}
               <BsSendFill />
-              Lets Talk
+            برقراری تماس
             </button>
             <span
               onClick={toggleMenu}

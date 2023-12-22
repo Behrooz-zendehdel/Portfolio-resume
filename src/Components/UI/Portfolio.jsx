@@ -35,10 +35,10 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <div className="container">
-        <div className="flex items-center justify-between flex-wrap">
+        <div className="flex items-center flex-row-reverse justify-between flex-wrap">
           <div className="mb-7 sm:mb-0">
-            <h3 className="text-headingColor text-[2rem] font-[700] ">
-              My recent projects
+            <h3 className="text-headingColor text-[1.5rem] font-[600] ">
+            پروژه های اخیر من
             </h3>
           </div>
           <div className="flex gap-3 ">
@@ -46,19 +46,19 @@ const Portfolio = () => {
               onClick={() => setSelectTab("all")}
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px] hover:bg-smallTextColor hover:text-white"
             >
-              All
+              همه
             </button>
             <button
               onClick={() => setSelectTab("web-design")}
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]  hover:bg-smallTextColor hover:text-white"
             >
-              web Design
+              طراحی سایت
             </button>
             <button
               onClick={() => setSelectTab("ux-design")}
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]  hover:bg-smallTextColor hover:text-white"
             >
-              ux Design
+              طراحی با وردپرس
             </button>
           </div>
         </div>
@@ -80,7 +80,7 @@ const Portfolio = () => {
                     onClick={() => showModalHandler(portfolio.id)}
                     className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200 "
                   >
-                    Comming soong
+                    بزودی
                   </button>
                 </div>
               </div>
@@ -93,7 +93,7 @@ const Portfolio = () => {
               onClick={loadMoreHandler}
               className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200 "
             >
-              Load more
+              موارد بیشتر
             </button>
           )}
         </div>
