@@ -65,7 +65,7 @@ const Header = () => {
                   className="text-smallTextColor font-[600]"
                   href="#about"
                 >
-                 درباره من
+                  درباره من
                 </a>
               </li>
               <li>
@@ -74,7 +74,7 @@ const Header = () => {
                   className="text-smallTextColor font-[600]"
                   href="#services"
                 >
-                    خدمات
+                  خدمات
                 </a>
               </li>
               <li>
@@ -102,8 +102,8 @@ const Header = () => {
           <div className=" flex items-center gap-4">
             <button className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-out duration-700">
               {/* add react-icon to be for change remixicon */}
-              <BsSendFill />
-            برقراری تماس
+              <BsSendFill href="09222806847" />
+              برقراری تماس
             </button>
             <span
               onClick={toggleMenu}
