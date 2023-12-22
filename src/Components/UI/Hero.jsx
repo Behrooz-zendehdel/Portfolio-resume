@@ -10,7 +10,7 @@ import { GrDeploy } from "react-icons/gr";
 import "aos/dist/aos.css";
 const Hero = () => {
   return (
-    <section className="pt-0" id="#about">
+    <section className="pt-0" id="about">
       <div className="container pt-14 ">
         <div className="md:flex flex  items-center justify-between sm:flex-col md:flex-row">
           {/* =========== hero left contant ============== */}
