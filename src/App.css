@@ -47,17 +47,24 @@ section {
     display: none;
   }
   .menu ul {
-    width: 15rem;
+    width: 10rem;
     height: 100%;
     position: absolute;
     top: 0;
     right: 0;
     z-index: 200;
-    background: #fff;
+    background: #8873ef;
     flex-direction: column;
     line-height: 30px;
     justify-content: center;
     align-items: center;
+  }
+
+  .menu ul a {
+    color: #fff;
+  }
+  .menu ul a:hover {
+    color: #000;
   }
   .show__menu {
     display: block;
