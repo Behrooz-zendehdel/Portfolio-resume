@@ -16,7 +16,7 @@ const Footer = () => {
             <a href="#contact">
               <button className="flex items-center bg-primaryColor text-white font-[500] ap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]">
                 <CiMail size={20} className="mr-2" />
-                Hire me
+                راه ارتباطی
               </button>
             </a>
           </div>
