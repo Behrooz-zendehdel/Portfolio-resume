@@ -1,4 +1,26 @@
+
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 const Contact = () => {
+
+  const form = useRef();
+
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+
+    emailjs.sendForm('service_ylpx4rg', 'template_lcqsbnh', form.current, 'oCfX3be4Ry8A3DO7A')
+    .then((result) => {
+      console.log(result.text);
+    }, 
+    (error) => {
+      console.log(error.text);
+    });
+  };
+
+
+
   return (
     <section id="contact" className="pb-16">
       <div className="container">
@@ -16,7 +38,7 @@ const Contact = () => {
           </div>
 
           <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 px-4 lg:px-8 py-8">
-            <form action="" className="w-full">
+            <form ref={form} onSubmit={sendEmail} action="" className="w-full">
               <div className="mb-5">
                 <input
                   type="text"
