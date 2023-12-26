@@ -1,25 +1,27 @@
-
-import emailjs from '@emailjs/browser';
-import { useRef } from 'react';
+import emailjs, { send } from "@emailjs/browser";
+import { useRef } from "react";
 const Contact = () => {
-
   const form = useRef();
 
-  
   const sendEmail = (e) => {
     e.preventDefault();
 
-
-    emailjs.sendForm('service_ylpx4rg', 'template_lcqsbnh', form.current, 'oCfX3be4Ry8A3DO7A')
-    .then((result) => {
-      console.log(result.text);
-    }, 
-    (error) => {
-      console.log(error.text);
-    });
+    emailjs
+      .sendForm(
+        "service_ylpx4rg",
+        "template_lcqsbnh",
+        form.current,
+        "oCfX3be4Ry8A3DO7A"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
-
-
 
   return (
     <section id="contact" className="pb-16">
@@ -44,6 +46,7 @@ const Contact = () => {
                   type="text"
                   placeholder="نام خود را وارد کنید"
                   className="w-full p-3 focus:outline-none rounded-[5px] text-right"
+                  name="user_name"
                 />
               </div>
               <div className="mb-5">
@@ -51,6 +54,7 @@ const Contact = () => {
                   type="text"
                   placeholder="ایمیل خود را وارد کنید"
                   className="w-full p-3 focus:outline-none rounded-[5px] text-right"
+                  name="user_email"
                 />
               </div>
               <div className="mb-5">
@@ -58,6 +62,7 @@ const Contact = () => {
                   type="text"
                   placeholder="توضیحات"
                   className="w-full p-3 focus:outline-none rounded-[5px] text-right"
+                  name="desc"
                 />
               </div>
               <div className="mb-5">
@@ -66,9 +71,14 @@ const Contact = () => {
                   rows={3}
                   placeholder="متن خود را بنویسید"
                   className="w-full p-3 focus:outline-none rounded-[5px] text-right"
+                  name="detail"
                 />
               </div>
-              <button className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor text-center ease-linear duration-150">
+              <button
+                type="submit"
+                value={send}
+                className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor text-center ease-linear duration-150"
+              >
                 ارسال پیام
               </button>
             </form>
